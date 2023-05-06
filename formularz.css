@@ -1,0 +1,63 @@
+.formularz{
+    border-radius: 15px;
+    margin: auto;
+    width: 550px;
+    height: 500px
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    background-color: rgb(27, 27, 75);
+    } 
+    
+    body{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+      color: white;
+      font-family: "Times New Roman", Times, serif;
+      margin: 0;
+    }
+    
+    label {
+        display: flex;
+        align-items: center;
+        font-size: 1.125rem;
+        margin-bottom: 0.5rem;
+    }
+    .luka{
+      width: 510px;
+      height: 30px;
+      margin-bottom: 20px;
+    }
+    
+    .miejsce{
+      margin-left: 20px
+    }
+    
+    .rola{
+      width: 510px;
+      height: 30px;
+      margin-bottom: 20px;
+    }
+    .input-textarea{
+      width: 510px;
+      height: 90px;
+    }
+    
+    .input-textarea{
+      font-family: "Times New Roman", Times, serif;
+      font-size: 15px
+    }
+    
+    .submit-button{
+      width: 510px;
+      height: 40px;
+      margin-top: 20px;
+      color: white;
+      background-color: rgb(51, 133, 255);
+    }
+    
+    .opcjonalne{
+      font-style: italic;
+      font-size: 17
+      
+    }

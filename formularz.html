@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <link rel="stylesheet" href="formularz.css">
+    
+    </head>
+  <body>
+    <div class="formularz">    
+      <header>
+        <h1 id="title">Ankieta o polskim systemie edukacji</h1>
+        <p id="description"><em>Dziękujemy za udział w ankiecie, której celem jest reforma polskiego systemu edukacji</em></p>
+      </header>
+      <form id="survey-form" class="form">
+          <div> 
+            <label id="name-label" for="name" class="miejsce">Imię</label>
+            <input type="text" name="name" id="name"  class="luka" required placeholder="Podaj swoje imię"> 
+          </div>
+
+          <div>
+            <label id="email-label" for="email" class="miejsce">Email</label>
+            <input type="email" name="email" class="luka" id="email" required placeholder="Podaj swój email">
+          </div>
+
+          <div>
+            
+             <label id="number-label" for="age" class="miejsce">Wiek &nbsp;<span class="opcjonalne">(opcjonalne)</span></label>
+            <input type="number" name="age" id="number" class="luka" min="13" max="85" placeholder="Podaj swój wiek">
+          </div>
+
+          <div>
+          <label class="miejsce">Która opcja najlepiej opisuje Twoją obecną rolę?</label>
+          <select id="dropdown" name="rola" class="rola" required>
+            <option disabled selected value>Wybierz rolę</option>
+            <option value="Uczeń">Uczeń</option>
+            <option value="Nauczyciel">Nauczyciel</option>
+            <option value="Rodzic">Rodzic</option>
+          
+          </select>
+        </div>
+        <div>
+          <label class="miejsce">Do jakiej szkoły uczęszczasz lub w jakiej uczysz?</label>
+          <label class="miejsce">
+            <input name="szkoła" type="radio" value="Szkoła podstawowa" checked class="input radio">
+            Szkoła podstawowa
+          </label>
+          <br>
+
+          <label class="miejsce"> 
+            <input name="szkoła" type="radio" value="Szkoła średnia" class="input radio">
+            Szkoła średnia
+            
+          </label>
+          <br>
+
+
+          <label class="miejsce">
+            <input name="szkoła" type="radio" value="Szkoła wyższa" class="input radio">
+            Szkoła wyższa
+            
+          </label>
+          <br>
+
+
+          <label class="miejsce">
+            <input name="szkoła" type="radio" value="Brak" class="input radio">
+            Brak
+         
+            
+          </label>
+          
+        
+        </div>   
+        <div>
+          <label class="miejsce">Co chciałbyś aby się zmieniło?</label>
+          <label class="miejsce">
+            <input type="checkbox" value="podstawa programowa" name="zmiana">
+            Podstawa programowa
+          </label>
+          <br>
+          <label class="miejsce">
+            <input type="checkbox" value="relacje uczniów z nauczycielami" name="zmiana">
+            Relacje uczniów z nauczycielami
+          </label>
+          <br>
+          <label class="miejsce">
+            <input type="checkbox" value="Ilość godzin lekcyjnych" name="zmiana">
+            Ilość godzin lekcyjnych
+          </label>
+          <br>
+          <label class="miejsce">
+            <input type="checkbox" value="Przedmioty" name="zmiana">
+            Przedmioty
+          </label>
+          <br>
+
+          <label class="miejsce">
+            <input type="checkbox" value="Godzina rozpoczęcia zajęć" name="zmiana">
+            Godzina rozpoczęcia zajęć
+          </label>
+         </div>
+
+          <div>
+          <label class="miejsce">Czy masz jakieś sugestie?</label>
+          <textarea 
+            id="komentarze"
+            class="input-textarea"
+            name="komentarz"
+            placeholder="Wpisz tutaj swój komenatrz..."
+          ></textarea>
+        </div>
+
+        <div>
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+        </div>
+    
+   
+       
+
+
+      
+
+
+
+        
+
+      </form>
+    </div>
+    
+      
+    
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
